@@ -1,0 +1,17 @@
+# Core Frameworks
+tensorflow==2.12.0
+
+# Data Handling and ML - Pinning numpy to be < 2.0 for tensorflow compatibility
+numpy<2.0
+pandas
+scikit-learn
+
+# Visualization and Imaging
+matplotlib
+seaborn
+Pillow
+opencv-python-headless
+
+# Web App & Notebooks
+streamlit==1.28.2
+ipykernel
